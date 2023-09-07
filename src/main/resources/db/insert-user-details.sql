@@ -1,0 +1,2 @@
+INSERT INTO user_details (id, first_name, last_name, user_name, email, password, address_id, account_non_expired, account_non_lock, credentials_non_expired, enabled)
+VALUES (1, 'Bartosz', 'Kotwica', 'Bario', 'bario7000@wp.pl', 'abecadlo123', 1, true, true, true, true);

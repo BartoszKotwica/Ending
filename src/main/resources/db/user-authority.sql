@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS user_authority (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    authority VARCHAR(32) NOT NULL
+);
